@@ -1,0 +1,21 @@
+{
+    "name": "xtfer/cupcake",
+    "minimum-stability": "dev",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Chris Skene",
+            "email": "chris@xtfer.com"
+        }
+    ],
+    "require": {
+        "raulfraile/ladybug": "1.*",
+        "phpunit/phpunit": "~4.0",
+        "symfony/yaml": ">=2.3,<2.5-dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Cupcake": "src"
+        }
+    }
+}

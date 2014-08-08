@@ -1,0 +1,61 @@
+
+body {
+  width: 100%;
+  font-size: 10px;
+}
+
+img {
+  max-width: 100%
+}
+
+div.reveal {
+  margin: 2em;
+  font-size: 20px;
+}
+
+section.stack section {
+  margin-left: 3em;
+}
+
+section.stack section:first-child {
+  margin-left: 0;
+}
+
+section.title h2 {
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+section h2:first-child,
+section h3:first-child {
+  margin-top: 0.5em;
+  border-top: 1px solid rgb(91, 157, 194);
+  padding-top: 1em;
+}
+
+.reveal pre code {
+  max-height: inherit;
+  font-size: 0.9em;
+  line-height: 1;
+  overflow: visible;
+  background: #f0f1eb;
+  border: 1px solid #666666;
+  color: #666;
+  word-wrap: break-word;
+}
+
+.reveal pre code.html {
+  /*display: none;*/
+}
+
+.reveal pre code.html::before {
+  content: "Inline HTML cannot be currently rendered correctly.";
+}
+
+code p {
+  margin: 0;
+}
